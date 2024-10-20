@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 60px;
+            max-width: 900px;
+            width: 90%;
+        }
+        .logo {
+            margin-bottom: 30px;
+        }
+        .login-option-container {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            margin-top: 30px;
+        }
+        .login-option {
+            text-align: center;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        .login-option:hover {
+            transform: translateY(-5px);
+        }
+        .login-option h5 {
+            padding: auto;
+            font-weight: 500;
+            margin: 15px 0;
+            font-size: 1.5rem;
+            color: #333333;
+        }
+        .login-option i {
+            font-size: 3rem;
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+        .btn-custom {
+            background-color: #007bff;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 30px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        .btn-custom:hover {
+            background-color: #0056b3;
+            color: #ffffff;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Logo Section -->
+        <div class="logo">
+            <img src="https://assets.gomarket.com.do/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNjZlQ0E9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--faa1a1868919984e84d4a58fcb3e3bad043467a8/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2QzNKbGMybDZaVWtpRERRd01IZzBNREFHT3daVSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--11499c6e4f75e28da8a3061a74659b94783663f9/Logo%20Sportline%202016%20RGB%20Negro.png" alt="Logo" width="200">
+        </div>
+
+        <!-- Login Options -->
+        <div class="login-option-container">
+            <div class="login-option">
+                <i class="fas fa-user-shield"></i>
+                <h5>Administrador</h5>
+                <a href="login_admin/admin_dashboard.php" class="btn btn-custom">Iniciar Sesión</a>
+            </div>
+
+            <div class="login-option">
+                <i class="fas fa-user"></i>
+                <h5>Cliente</h5>
+                <a href="vista_cliente.php" class="btn btn-custom">Iniciar Sesión</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+[{
+  "_id": {
+    "$oid": "670406e214ebae7e02ab2ad5"
+  },
+  "nombre": "Usuario de Prueba",
+  "email": "usuario@prueba.com",
+  "puesto": "Gerente"
+},
+{
+  "_id": {
+    "$oid": "670406ffaf074dbcca05ef32"
+  },
+  "nombre": "kevin",
+  "email": "kevin.aviles@catolica.edu.sv",
+  "password": "1234",
+  "rol": "administrador",
+  "createdAt": {}
+},
+{
+  "_id": {
+    "$oid": "6704074caf074dbcca05ef33"
+  },
+  "nombre": "Ludwin",
+  "email": "admin@example.com",
+  "puesto": "Gerente",
+  "createdAt": {}
+},
+{
+  "_id": {
+    "$oid": "67041521af074dbcca05ef34"
+  },
+  "nombre": "Juan",
+  "email": "juan@gmail.com",
+  "puesto": "Empleado",
+  "rol": "Empleado",
+  "createdAt": {}
+}]

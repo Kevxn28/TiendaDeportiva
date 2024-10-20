@@ -1,0 +1,45 @@
+[{
+  "_id": {
+    "$oid": "670209bfff7664a2105d77bd"
+  },
+  "nombre": "Rodrigo",
+  "email": "kevinrodrigo230@gmail.com",
+  "telefono": "7626-2269",
+  "direccion": "Calle Falsa 123, Ilobasco, Cabañas, El Salvador"
+},
+{
+  "_id": {
+    "$oid": "670209bfff7664a2105d77be"
+  },
+  "nombre": "María Gómez",
+  "email": "maria.gomez@example.com",
+  "telefono": "76543210",
+  "direccion": "Avenida Libertad 456, San Salvador, El Salvador"
+},
+{
+  "_id": {
+    "$oid": "670209bfff7664a2105d77bf"
+  },
+  "nombre": "Carlos Rodríguez",
+  "email": "carlos.rodriguez@example.com",
+  "telefono": "75891234",
+  "direccion": "Boulevard del Este 789, Santa Ana, El Salvador"
+},
+{
+  "_id": {
+    "$oid": "670209bfff7664a2105d77c0"
+  },
+  "nombre": "Ana Martínez",
+  "email": "ana.martinez@example.com",
+  "telefono": "77123456",
+  "direccion": "Plaza Central 101, San Miguel, El Salvador"
+},
+{
+  "_id": {
+    "$oid": "670209bfff7664a2105d77c1"
+  },
+  "nombre": "Luis Fernández",
+  "email": "luis.fernandez@example.com",
+  "telefono": "76345678",
+  "direccion": "Colonia Santa Rosa 202, La Libertad, El Salvador"
+}]

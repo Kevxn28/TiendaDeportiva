@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "670204907d753c1883812c16"
+  },
+  "nombre": "Zapatos",
+  "descripcion": "Todo tipo de calzado, desde deportivos hasta formales."
+},
+{
+  "_id": {
+    "$oid": "670204907d753c1883812c17"
+  },
+  "nombre": "Ropa",
+  "descripcion": "Vestimenta para todas las ocasiones, incluyendo casual y formal."
+},
+{
+  "_id": {
+    "$oid": "670204907d753c1883812c18"
+  },
+  "nombre": "Accesorios",
+  "descripcion": "Artículos complementarios como bolsos, joyería y más."
+},
+{
+  "_id": {
+    "$oid": "670204907d753c1883812c19"
+  },
+  "nombre": "Tecnología",
+  "descripcion": "Dispositivos tecnológicos como smartphones, laptops y gadgets."
+}]

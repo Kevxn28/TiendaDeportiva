@@ -1,0 +1,50 @@
+[{
+  "_id": {
+    "$oid": "670446fbaf074dbcca05ef48"
+  },
+  "nombre": "Jordan Low 1",
+  "categoria": "Zapatos",
+  "precio": 250,
+  "stock": 10,
+  "imagen": "img/1.png"
+},
+{
+  "_id": {
+    "$oid": "67044718af074dbcca05ef49"
+  },
+  "nombre": "Jordan Low 2",
+  "categoria": "Zapatos",
+  "precio": 250,
+  "stock": 10,
+  "imagen": "img/2.png"
+},
+{
+  "_id": {
+    "$oid": "67044d04af074dbcca05ef4a"
+  },
+  "nombre": "Nike Skins",
+  "categoria": "Ropa",
+  "precio": 45,
+  "stock": 20,
+  "imagen": "img/camisa.png"
+},
+{
+  "_id": {
+    "$oid": "67044d37af074dbcca05ef4b"
+  },
+  "nombre": "Smartwatch",
+  "categoria": "Tecnología",
+  "precio": 125,
+  "stock": 10,
+  "imagen": "img/reloj.png"
+},
+{
+  "_id": {
+    "$oid": "6705569d147a1380ea04cb5a"
+  },
+  "nombre": "Zapatos Deportivos",
+  "categoria": "Zapatos",
+  "precio": 350,
+  "stock": 15,
+  "imagen": "img/taocs.png"
+}]

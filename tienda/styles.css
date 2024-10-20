@@ -1,0 +1,238 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f0e1; /* Color beige claro */
+    color: #333;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+
+/* Estilos para los óvalos en la parte superior izquierda */
+.text-container .oval.black {
+    background: #000; /* Color negro para el primer óvalo */
+    color: #fff; /* Letras blancas */
+}
+
+.text-container .oval.white {
+    background: #fff; /* Color blanco para el segundo óvalo */
+    color: #000; /* Letras negras */
+}
+
+
+/* Iconos en la parte superior derecha dentro de la imagen */
+.icon-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 15px; /* Separación entre los iconos */
+    z-index: 2; /* Asegurarse que los iconos estén encima del fondo */
+}
+
+.icon {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333; /* Color de los iconos */
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.icon:hover {
+    background-color: #e0e0e0; /* Color al pasar el cursor */
+}
+
+/* Sección Principal */
+.main {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    height: 700px;
+    background-image: url('jordanm.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr auto;
+    padding: 40px;
+    color: #fff;
+}
+
+/* Título de Jordan (Centro) */
+.jordan-title {
+    font-size: 11em; /* Tamaño más grande */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 160px;
+    position: relative;
+    left: -77%; /* Más centrado */
+}
+
+.white {
+    color: #fff;
+}
+
+.outline {
+    color: transparent;
+    -webkit-text-stroke: 4px #fff; /* Borde blanco más grueso */
+}
+
+.ma2-title {
+    font-size: 9em; /* Ajuste del tamaño más grande */
+    color: #fff;
+    text-align: center;
+    margin-top: -50px;
+    position: relative;
+    right: 15%; /* Más centrado */
+}
+
+/* Sección izquierda (Reordenada) */
+.left-section {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start; /* Mantener alineación original */
+}
+
+/* Ovalo básico */
+.oval {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    display: inline-flex;
+    align-items: center;
+}
+
+/* Calificación */
+.rating i {
+    color: #FFD700;
+}
+
+/* Imágenes dentro de los ovalos */
+.shoe-images .oval {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    padding: 0; /* Elimina el padding para que la imagen ocupe todo el espacio */
+}
+
+.shoe-images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* La imagen se ajusta al tamaño del contenedor ovalado */
+}
+
+/* Descuento */
+.discount {
+    color: #E53E3E;
+}
+
+/* Estilos para los precios */
+.price-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar horizontalmente */
+    position: absolute;
+    bottom: 10px; /* Ajustar la distancia desde la parte inferior */
+    left: 50%; /* Para centrar */
+    transform: translateX(-50%); /* Centrar exactamente */
+}
+
+.old-price {
+    text-decoration: line-through; /* Tachar el precio antiguo */
+    color: #000000; /* Color gris para el precio antiguo */
+    font-size: 1.5em; /* Tamaño del texto */
+}
+
+.new-price {
+    color: #000; /* Color negro para el nuevo precio */
+    font-size: 2em; /* Tamaño más grande para destacar el nuevo precio */
+}
+
+/* Sección derecha (Tallas y guía) */
+.right-section {
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.size-texts {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    width: 100%; /* Asegura que ocupe el ancho completo */
+    font-size: 1.2em; /* Tamaño de fuente uniforme */
+}
+
+.select-size {
+    color: #000;
+}
+
+.size-guide {
+    color: #999;
+}
+
+.sizes ul {
+    display: flex;
+    list-style: none;
+}
+
+.size {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.size-black {
+    background-color: #333;
+}
+
+.size-grey {
+    background-color: #888;
+}
+
+.size-white {
+    background-color: #fff;
+    color: #333;
+}
+
+.size-darkgrey {
+    background-color: #555;
+}
+
+.size-lightgrey {
+    background-color: #ccc;
+}
